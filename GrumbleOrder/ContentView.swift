@@ -10,6 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     let menu = Bundle.main.decode([MenuSection].self, from: "menu.json")
+    @EnvironmentObject var order: Order
     
     var body: some View {
         NavigationView {
