@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B71187CF2339E86A008358FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71187CE2339E86A008358FA /* AppDelegate.swift */; };
+		B71187D12339E86A008358FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71187D02339E86A008358FA /* SceneDelegate.swift */; };
+		B71187D42339E86A008358FA /* GrumbleOrder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B71187D22339E86A008358FA /* GrumbleOrder.xcdatamodeld */; };
+		B71187D62339E86A008358FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71187D52339E86A008358FA /* ContentView.swift */; };
+		B71187D82339E86D008358FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B71187D72339E86D008358FA /* Assets.xcassets */; };
+		B71187DB2339E86D008358FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B71187DA2339E86D008358FA /* Preview Assets.xcassets */; };
+		B71187DE2339E86D008358FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B71187DC2339E86D008358FA /* LaunchScreen.storyboard */; };
+		B71187E92339E86D008358FA /* GrumbleOrderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71187E82339E86D008358FA /* GrumbleOrderTests.swift */; };
+		B71187F42339E86D008358FA /* GrumbleOrderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71187F32339E86D008358FA /* GrumbleOrderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B71187E52339E86D008358FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B71187C32339E86A008358FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B71187CA2339E86A008358FA;
+			remoteInfo = GrumbleOrder;
+		};
+		B71187F02339E86D008358FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B71187C32339E86A008358FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B71187CA2339E86A008358FA;
+			remoteInfo = GrumbleOrder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B71187CB2339E86A008358FA /* GrumbleOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrumbleOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B71187CE2339E86A008358FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B71187D02339E86A008358FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B71187D32339E86A008358FA /* GrumbleOrder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GrumbleOrder.xcdatamodel; sourceTree = "<group>"; };
+		B71187D52339E86A008358FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B71187D72339E86D008358FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B71187DA2339E86D008358FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B71187DD2339E86D008358FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B71187DF2339E86D008358FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B71187E42339E86D008358FA /* GrumbleOrderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrumbleOrderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B71187E82339E86D008358FA /* GrumbleOrderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrumbleOrderTests.swift; sourceTree = "<group>"; };
+		B71187EA2339E86D008358FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B71187EF2339E86D008358FA /* GrumbleOrderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrumbleOrderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B71187F32339E86D008358FA /* GrumbleOrderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrumbleOrderUITests.swift; sourceTree = "<group>"; };
+		B71187F52339E86D008358FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B71187C82339E86A008358FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B71187E12339E86D008358FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B71187EC2339E86D008358FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B71187C22339E86A008358FA = {
+			isa = PBXGroup;
+			children = (
+				B71187CD2339E86A008358FA /* GrumbleOrder */,
+				B71187E72339E86D008358FA /* GrumbleOrderTests */,
+				B71187F22339E86D008358FA /* GrumbleOrderUITests */,
+				B71187CC2339E86A008358FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B71187CC2339E86A008358FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B71187CB2339E86A008358FA /* GrumbleOrder.app */,
+				B71187E42339E86D008358FA /* GrumbleOrderTests.xctest */,
+				B71187EF2339E86D008358FA /* GrumbleOrderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B71187CD2339E86A008358FA /* GrumbleOrder */ = {
+			isa = PBXGroup;
+			children = (
+				B71187CE2339E86A008358FA /* AppDelegate.swift */,
+				B71187D02339E86A008358FA /* SceneDelegate.swift */,
+				B71187D52339E86A008358FA /* ContentView.swift */,
+				B71187D72339E86D008358FA /* Assets.xcassets */,
+				B71187DC2339E86D008358FA /* LaunchScreen.storyboard */,
+				B71187DF2339E86D008358FA /* Info.plist */,
+				B71187D22339E86A008358FA /* GrumbleOrder.xcdatamodeld */,
+				B71187D92339E86D008358FA /* Preview Content */,
+			);
+			path = GrumbleOrder;
+			sourceTree = "<group>";
+		};
+		B71187D92339E86D008358FA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B71187DA2339E86D008358FA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B71187E72339E86D008358FA /* GrumbleOrderTests */ = {
+			isa = PBXGroup;
+			children = (
+				B71187E82339E86D008358FA /* GrumbleOrderTests.swift */,
+				B71187EA2339E86D008358FA /* Info.plist */,
+			);
+			path = GrumbleOrderTests;
+			sourceTree = "<group>";
+		};
+		B71187F22339E86D008358FA /* GrumbleOrderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B71187F32339E86D008358FA /* GrumbleOrderUITests.swift */,
+				B71187F52339E86D008358FA /* Info.plist */,
+			);
+			path = GrumbleOrderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B71187CA2339E86A008358FA /* GrumbleOrder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B71187F82339E86D008358FA /* Build configuration list for PBXNativeTarget "GrumbleOrder" */;
+			buildPhases = (
+				B71187C72339E86A008358FA /* Sources */,
+				B71187C82339E86A008358FA /* Frameworks */,
+				B71187C92339E86A008358FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrumbleOrder;
+			productName = GrumbleOrder;
+			productReference = B71187CB2339E86A008358FA /* GrumbleOrder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B71187E32339E86D008358FA /* GrumbleOrderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B71187FB2339E86D008358FA /* Build configuration list for PBXNativeTarget "GrumbleOrderTests" */;
+			buildPhases = (
+				B71187E02339E86D008358FA /* Sources */,
+				B71187E12339E86D008358FA /* Frameworks */,
+				B71187E22339E86D008358FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B71187E62339E86D008358FA /* PBXTargetDependency */,
+			);
+			name = GrumbleOrderTests;
+			productName = GrumbleOrderTests;
+			productReference = B71187E42339E86D008358FA /* GrumbleOrderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B71187EE2339E86D008358FA /* GrumbleOrderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B71187FE2339E86D008358FA /* Build configuration list for PBXNativeTarget "GrumbleOrderUITests" */;
+			buildPhases = (
+				B71187EB2339E86D008358FA /* Sources */,
+				B71187EC2339E86D008358FA /* Frameworks */,
+				B71187ED2339E86D008358FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B71187F12339E86D008358FA /* PBXTargetDependency */,
+			);
+			name = GrumbleOrderUITests;
+			productName = GrumbleOrderUITests;
+			productReference = B71187EF2339E86D008358FA /* GrumbleOrderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B71187C32339E86A008358FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = SkyCloud;
+				TargetAttributes = {
+					B71187CA2339E86A008358FA = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					B71187E32339E86D008358FA = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = B71187CA2339E86A008358FA;
+					};
+					B71187EE2339E86D008358FA = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = B71187CA2339E86A008358FA;
+					};
+				};
+			};
+			buildConfigurationList = B71187C62339E86A008358FA /* Build configuration list for PBXProject "GrumbleOrder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B71187C22339E86A008358FA;
+			productRefGroup = B71187CC2339E86A008358FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B71187CA2339E86A008358FA /* GrumbleOrder */,
+				B71187E32339E86D008358FA /* GrumbleOrderTests */,
+				B71187EE2339E86D008358FA /* GrumbleOrderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B71187C92339E86A008358FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71187DE2339E86D008358FA /* LaunchScreen.storyboard in Resources */,
+				B71187DB2339E86D008358FA /* Preview Assets.xcassets in Resources */,
+				B71187D82339E86D008358FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B71187E22339E86D008358FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B71187ED2339E86D008358FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B71187C72339E86A008358FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71187D42339E86A008358FA /* GrumbleOrder.xcdatamodeld in Sources */,
+				B71187CF2339E86A008358FA /* AppDelegate.swift in Sources */,
+				B71187D62339E86A008358FA /* ContentView.swift in Sources */,
+				B71187D12339E86A008358FA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B71187E02339E86D008358FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71187E92339E86D008358FA /* GrumbleOrderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B71187EB2339E86D008358FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71187F42339E86D008358FA /* GrumbleOrderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B71187E62339E86D008358FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B71187CA2339E86A008358FA /* GrumbleOrder */;
+			targetProxy = B71187E52339E86D008358FA /* PBXContainerItemProxy */;
+		};
+		B71187F12339E86D008358FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B71187CA2339E86A008358FA /* GrumbleOrder */;
+			targetProxy = B71187F02339E86D008358FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B71187DC2339E86D008358FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B71187DD2339E86D008358FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B71187F62339E86D008358FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B71187F72339E86D008358FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B71187F92339E86D008358FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GrumbleOrder/Preview Content\"";
+				DEVELOPMENT_TEAM = 4D2F7TK368;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GrumbleOrder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkyCloud.GrumbleOrder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B71187FA2339E86D008358FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GrumbleOrder/Preview Content\"";
+				DEVELOPMENT_TEAM = 4D2F7TK368;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GrumbleOrder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkyCloud.GrumbleOrder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B71187FC2339E86D008358FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4D2F7TK368;
+				INFOPLIST_FILE = GrumbleOrderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkyCloud.GrumbleOrderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrumbleOrder.app/GrumbleOrder";
+			};
+			name = Debug;
+		};
+		B71187FD2339E86D008358FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4D2F7TK368;
+				INFOPLIST_FILE = GrumbleOrderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkyCloud.GrumbleOrderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrumbleOrder.app/GrumbleOrder";
+			};
+			name = Release;
+		};
+		B71187FF2339E86D008358FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4D2F7TK368;
+				INFOPLIST_FILE = GrumbleOrderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkyCloud.GrumbleOrderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GrumbleOrder;
+			};
+			name = Debug;
+		};
+		B71188002339E86D008358FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4D2F7TK368;
+				INFOPLIST_FILE = GrumbleOrderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkyCloud.GrumbleOrderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GrumbleOrder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B71187C62339E86A008358FA /* Build configuration list for PBXProject "GrumbleOrder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B71187F62339E86D008358FA /* Debug */,
+				B71187F72339E86D008358FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B71187F82339E86D008358FA /* Build configuration list for PBXNativeTarget "GrumbleOrder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B71187F92339E86D008358FA /* Debug */,
+				B71187FA2339E86D008358FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B71187FB2339E86D008358FA /* Build configuration list for PBXNativeTarget "GrumbleOrderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B71187FC2339E86D008358FA /* Debug */,
+				B71187FD2339E86D008358FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B71187FE2339E86D008358FA /* Build configuration list for PBXNativeTarget "GrumbleOrderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B71187FF2339E86D008358FA /* Debug */,
+				B71188002339E86D008358FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B71187D22339E86A008358FA /* GrumbleOrder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B71187D32339E86A008358FA /* GrumbleOrder.xcdatamodel */,
+			);
+			currentVersion = B71187D32339E86A008358FA /* GrumbleOrder.xcdatamodel */;
+			path = GrumbleOrder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B71187C32339E86A008358FA /* Project object */;
+}
