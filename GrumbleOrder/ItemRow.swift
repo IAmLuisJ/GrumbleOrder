@@ -20,7 +20,7 @@ struct ItemRow: View {
                     .overlay(Circle().stroke(Color.blue, lineWidth: 2))
                 VStack(alignment: .leading) {
                     Text(item.name)
-                        .font(.headline)
+                    .font(.headline)
                     Text("$\(item.price)")
                 }.layoutPriority(1)
                 Spacer()
