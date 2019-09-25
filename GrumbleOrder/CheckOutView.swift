@@ -50,15 +50,7 @@ struct CheckOutView: View {
                     }
                 }.pickerStyle(SegmentedPickerStyle())
             }
-            
-            Section(header: Text("Pickup Time")) {
-                Picker("pickupTime", selection: $pickTime) {
-                    ForEach(0..<Self.pickTimes.count) {
-                        Text("\(Self.pickTimes[$0])")
-                    }
-                }.pickerStyle(SegmentedPickerStyle())
-            }
-            
+           
             Section(header: Text("Total: $\(totalPrice, specifier: "%.2f")") .font(.largeTitle))
                 {
                     Button("Confirm Order") {
@@ -67,9 +59,8 @@ struct CheckOutView: View {
                 }
         }.navigationBarTitle(Text("Payment"), displayMode: .inline)
             .alert(isPresented: $showingPaymentAlert) {
-                Alert(title: Text("Order Confirmed"), message: Text("Your total was $\(totalPrice, specifier: "%.2f") - thank you!"), dismissButton: .default(Text("Ok")))
-        }
-            
+                Alert(title: Text("Order confirmed"), message: Text("Your total was $ \(totalPrice, specifier: "%.2f")"), dismissButton: .default(Text("OK")))
+            }
     }
 }
 
