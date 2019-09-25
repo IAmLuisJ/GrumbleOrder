@@ -15,6 +15,7 @@ struct CheckOutView: View {
     @State private var loyaltyNumber = ""
     @State private var tipAmount = 1
     @State private var showingPaymentAlert = false
+    @State private var pickTime = 0
     
     var totalPrice: Double {
         let total = Double(order.total)
@@ -24,6 +25,7 @@ struct CheckOutView: View {
     
     static let paymentTypes = ["Cash", "Credit Card", "Reward Points"]
     static let tipAmounts = [10,15,20,25,0]
+    static let pickTimes = ["Now", "Later", "Tomorrow Morning"]
     
     var body: some View {
         Form {
@@ -41,14 +43,24 @@ struct CheckOutView: View {
                 TextField("Enter your Rewards id", text: $loyaltyNumber)
                 }
             }
-                Section(header: Text("Add a tip?")) {
-                    Picker("Percentage", selection: $tipAmount) {
-                        ForEach(0..<Self.tipAmounts.count) {
-                            Text("\(Self.tipAmounts[$0])%")
-                        }
-                    }.pickerStyle(SegmentedPickerStyle())
-                }
-            Section(header: Text("Total: $\(totalPrice, specifier: "%.2f")")) {
+            Section(header: Text("Add a tip?")) {
+                Picker("Percentage", selection: $tipAmount) {
+                    ForEach(0..<Self.tipAmounts.count) {
+                        Text("\(Self.tipAmounts[$0])%")
+                    }
+                }.pickerStyle(SegmentedPickerStyle())
+            }
+            
+            Section(header: Text("Pickup Time")) {
+                Picker("pickupTime", selection: $pickTime) {
+                    ForEach(0..<Self.pickTimes.count) {
+                        Text("\(Self.pickTimes[$0])")
+                    }
+                }.pickerStyle(SegmentedPickerStyle())
+            }
+            
+            Section(header: Text("Total: $\(totalPrice, specifier: "%.2f")") .font(.largeTitle))
+                {
                     Button("Confirm Order") {
                         self.showingPaymentAlert.toggle()
                     }
