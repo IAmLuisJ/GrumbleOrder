@@ -24,6 +24,7 @@
 		B711880C233A781D008358FA /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B711880B233A781D008358FA /* ItemDetail.swift */; };
 		B711880E233AAD36008358FA /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B711880D233AAD36008358FA /* OrderView.swift */; };
 		B7118810233AB11B008358FA /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B711880F233AB11B008358FA /* AppView.swift */; };
+		B7118812233ABFB5008358FA /* CheckOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7118811233ABFB5008358FA /* CheckOutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		B711880B233A781D008358FA /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		B711880D233AAD36008358FA /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		B711880F233AB11B008358FA /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		B7118811233ABFB5008358FA /* CheckOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 			children = (
 				B71187CE2339E86A008358FA /* AppDelegate.swift */,
 				B71187D02339E86A008358FA /* SceneDelegate.swift */,
+				B7118811233ABFB5008358FA /* CheckOutView.swift */,
 				B71188012339E8C2008358FA /* Helper.swift */,
 				B71187D52339E86A008358FA /* ContentView.swift */,
 				B7118809233A6EE5008358FA /* ItemRow.swift */,
@@ -305,6 +308,7 @@
 				B71187D12339E86A008358FA /* SceneDelegate.swift in Sources */,
 				B71188062339E8E0008358FA /* Order.swift in Sources */,
 				B711880A233A6EE5008358FA /* ItemRow.swift in Sources */,
+				B7118812233ABFB5008358FA /* CheckOutView.swift in Sources */,
 				B711880E233AAD36008358FA /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
